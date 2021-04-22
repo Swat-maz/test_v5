@@ -1,0 +1,26 @@
+.customize {
+  background-color: #f2f2f2;
+  padding-top: 33px;
+  padding-bottom: 17px;
+  &__body {
+    padding-top: 79px;
+    .title-blue {
+      line-height: 14px;
+      padding-top: 17px;
+    }
+    .title-main {
+      padding-top: 15px;
+      letter-spacing: 0.1px;
+    }
+    .line {
+      padding-top: 31px;
+    }
+    .text {
+      padding-top: 23px;
+    }
+  }
+  img {
+    margin-left: -29px;
+    margin-top: -1px;
+  }
+}

@@ -1,0 +1,51 @@
+.footer {
+  position: relative;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  background-color: $color-darc;
+  text-align: center;
+  &__links {
+    margin-top: 30px;
+    display: flex;
+    width: 218px;
+    justify-content: space-between;
+    a {
+      margin-right: 32px;
+      .fab {
+        font-size: 18px;
+        color: #434347;
+        &:hover {
+          color: $color-blue;
+        }
+      }
+      .fa-behance {
+        width: 19px;
+        height: 13px;
+      }
+      .fa-facebook-f {
+        padding-left: 3px;
+      }
+      .fa-linkedin-in {
+        padding-left: 4px;
+        font-size: 20px;
+      }
+    }
+    
+  }
+  .container {
+    margin-top: -4px;
+    text-align: center;
+    .row {
+      justify-content: center;
+    }
+    .copiryght {
+      padding-top: 10px;
+      font-size: 14px;
+      line-height: 48px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #444348;
+    }
+  }
+}

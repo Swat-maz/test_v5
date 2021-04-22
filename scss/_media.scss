@@ -1,0 +1,288 @@
+@media (max-width: 1199px) {
+  body {
+    text-align: center;
+  }
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .line {
+    margin: 0 auto;
+  }
+  .header {
+    .navbar {
+      padding-top: 15px;
+    }
+    &-content {
+      height: max-content;
+      div {
+        margin: 0 auto;
+      }
+      img {
+        margin-top: 10px;
+        margin-left: 0;
+        height: 400px;
+        margin-top: 40px;
+      }
+      .buttons {
+        margin-top: 30px;
+        button {
+          margin-bottom: 15px;
+        }
+      }
+    }
+    .title-blue {
+      margin-top: 50px;
+    }
+  }
+  .list {
+    height: max-content;
+    padding-top: 20px;
+    .line {
+      padding-bottom: 7px;
+    }
+    &-item {
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+  }
+  .customize {
+    img {
+      width: 60%;
+    }
+  }
+  .plans {
+    #priSe {
+      margin-top: 15px;
+    }
+    .card {
+      margin: 0 auto;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  }
+  .slide__item {
+    width: 45%;
+    padding: 0 5px;
+  }
+  .contact {
+    margin-top: 40px;
+    form {
+      .forow {
+        padding: 0;
+      }
+      position: inherit;
+      top: 0;
+      max-width: 100%;
+      margin-top: 20px;
+      margin-bottom: 0;
+      .formflex {
+        justify-content: space-around;
+      }
+    }
+  }
+  .like {
+    &__btn {
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  a.anchor {
+    top: -80px;
+  }
+  .features {
+    padding-top: 25px;
+    &__body {
+      padding-top: 5px;
+      .text {
+        width: 80%;
+        margin: 0 auto;
+      }
+    }
+    &_img {
+      img {
+        width: 60%;
+      }
+    }
+    .fitem {
+      justify-content: center;
+    }
+  }
+  .customize {
+    padding-top: 0;
+    &__body {
+      padding-top: 30px;
+      .text {
+        width: 80%;
+        margin: 0 auto;
+      }
+    }
+    img {
+      width: 60%;
+    }
+  }
+  .pricings {
+    height: max-content;
+    .slide {
+      .slick-dots {
+        margin-top: 25px;
+        margin-bottom: 25px;
+      }
+      padding-top: 20px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .title-main {
+    font-size: 26px;
+  }
+  .title-blue {
+    font-size: 12px;
+  }
+  .header {
+    &__title {
+      font-size: 30px;
+      width: 90%;
+      margin: 0 auto;
+    }
+    &__text {
+      font-size: 15px;
+      width: 80%;
+      padding-top: 24px;
+      margin: 0 auto;
+    }
+    &-content {
+      img {
+        width: 60%;
+        height: max-content;
+      }
+    }
+    .navbar-nav {
+      width: 100%;
+      text-align: center;
+    }
+    a.menu_link {
+      &:hover::before {
+        visibility: hidden;
+      }
+      &:hover::after {
+        visibility: hidden;
+      }
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+    }
+    &__burgbody {
+      display: block;
+      position: relative;
+      width: 42px;
+      height: 32px;
+      background-color: #15141a;
+      border-radius: 3px;
+    }
+    .header__burger {
+      display: block;
+      position: relative;
+      width: 22px;
+      height: 14px;
+      margin: 9px auto;
+    }
+    .header__burger::before,
+    .header__burger::after {
+      content: '';
+      background-color: #fff;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+    }
+    .header__burger::before {
+      top: 0;
+    }
+    .header__burger::after {
+      bottom: 0;
+    }
+    .header__burger span {
+      content: '';
+      background-color: #fff;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      top: 6px;
+    }
+    .menu {
+      position: fixed;
+      transition: 0.5s;
+      top: -100%;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      justify-self: center;
+      z-index: -1;
+      ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        li {
+          width: 80%;
+          margin: 0 auto;
+          height: 80%;
+        }
+      }
+    }
+    .menu.active {
+      top: 65px;
+      transition: 0.5s;
+      z-index: -1;
+      background-color: #15141a;
+      height: 250px;
+    }
+  }
+  .pricings {
+    .slide__text {
+      font-size: 18px;
+    }
+  }
+  .like__text {
+    font-size: 26px;
+  }
+  .contact {
+    .row-contact {
+      margin-top: 0;
+      .phone, .adress, .email {
+        margin-top: 30px;
+        img {
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .forma {
+      padding: 0;
+    }
+    form {
+      height: max-content;
+      .sbut {
+        margin: 0;
+        margin-bottom: 10px;
+      }
+      .forow {
+        .formflex{
+          flex-wrap: wrap;
+          height: max-content;
+          .inputes {
+            margin-right: 0;
+            margin-bottom: 10px;
+          }
+        }
+        height: max-content;
+      }
+    }
+  } 
+}

@@ -1,0 +1,100 @@
+.pricings {
+  background-image: url(../img/slider_bg.png);
+  background-size: cover;
+  height: 640px;
+  padding-top: 62px;
+  &__title {
+    text-align: center;
+    .title-blue {
+      line-height: 14px;
+    }
+    .title-main {
+      color: #fff;
+      padding-top: 15px;
+    }
+  }
+  .line {
+    padding-top: 32px;
+    margin: 0 auto;
+  }
+  .slide {
+    padding-top: 86px;
+    &__text {
+      font-style: italic;
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 400;
+      color: #ffffff;
+      padding-left: 14px;
+      padding-right: 14px;
+    }
+    &__person {
+      display: flex;
+      margin-top: 24px;
+      padding-left: 15px;
+      align-items: center;
+    }
+    &__info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 44px;
+      padding-left: 24px;
+    }
+    &__name {
+      font-size: 16px;
+      font-weight: 400;
+      color: #ffffff;
+    }
+    &__position {
+      font-size: 14px;
+      font-weight: 700;
+      color: #fff;
+      padding-bottom: 3px;
+    }
+  }
+  .slick-slider {
+    width: 100%;
+    min-width: 0;
+  }
+  .slick-list {
+    width: 100%;
+    overflow: hidden;
+    min-width: 0;
+    margin: 0 auto;
+  }
+  .slick-track {
+    min-width: 0;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .slick-slide.slick-active {
+    width: 350px;
+  }
+  .slick-dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 132px;
+  } 
+  .slick-dots li{
+    list-style: none;
+    margin: 0 10px;
+  } 
+  .slick-dots li.slick-active button{
+    width: 14px;
+    height: 14px;
+    background-color: #ffffff;
+    margin-top: 1px;
+    padding-left: 2px;
+  } 
+  .slick-dots li button{
+    font-size: 0;
+    border: 1px solid rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.0);
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+  }
+}

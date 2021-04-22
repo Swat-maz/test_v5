@@ -1,0 +1,42 @@
+.features {
+  padding-top: 66px;
+  padding-bottom: 17px;
+  &_img {
+    padding-left: 20px;
+    margin-top: 1px;
+  }
+  &__body {
+    padding-top: 37px;
+    .title-blue {
+      line-height: 44px;
+    }
+    .line {
+      padding-top: 29px;
+    }
+    .text {
+      padding-top: 25px;
+      line-height: 26px;
+    }
+    .fitem {
+      display: flex;
+    }
+  }
+  &__item {
+    padding-top: 24px;
+  }
+  &__img {
+    width: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__text {
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: normal;
+    color: #1b1b1b;
+  }
+}

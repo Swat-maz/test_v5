@@ -1,0 +1,33 @@
+.like {
+  background-color: $color-darc;
+  height: 170px;
+  .container, .row {
+    height: 100%;
+  }
+  &__btn {
+    display: flex;
+    justify-content: end;
+    .btn {
+      margin-left: 20px;
+      background-color: rgba(0,142,214,0.0);
+      border: 1px solid rgba(255,255,255,0.2);
+      &:hover {
+        background-color: $color-blue;
+        box-shadow: 0px 0px 3px 0px rgba(3,3,3,0.1);
+        border: 1px solid $color-blue;
+      }
+    }
+  }
+  &__text {
+    margin-top: -6px;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 300;
+    color: #ffffff;
+    span {
+      font-weight: 600;
+      margin-right: 1px;
+      margin-bottom: 7px;
+    }
+  }
+}
